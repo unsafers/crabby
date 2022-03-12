@@ -1,5 +1,4 @@
-
-# Spotty
+# Crabby
 
 A player for those who wants to listen to music on Spotify right from the terminal.
 
@@ -15,23 +14,27 @@ A player for those who wants to listen to music on Spotify right from the termin
 ## Usage/Examples
 
 ```bash
-$ spotty connect
-$ spotty playlists
-$ spotty search
-$ spotty toggle play-pause
-$ spotty previous
-$ spotty next
-$ spotty mute
-$ spotty list <Object_URI>
+$ crabby connect
+$ crabby disconnect
+$ crabby get-playback
+$ crabby list
+$ crabby next
+$ crabby pause
+$ crabby play
+$ crabby previous
+$ crabby search
+$ crabby status
+$ crabby stop
+$ crabby suffle
 ```
 
 
 ## Installation
 
-Install spotty with cargo
+Install crabby with cargo
 
 ```bash
-  cargo install spotty
+  cargo install crabby
 ```
     
 ## Documentation
@@ -43,7 +46,7 @@ Install spotty with cargo
 
 - Implement CLI structure
 - Implement Spotify connection with token refresh
-- Integrate spotifyd daemon on spotty
+- Integrate spotifyd daemon on crabby
 - Implement basic playback control
 
 
@@ -58,9 +61,9 @@ Please adhere to this project's [WIP]`code of conduct`.
 
 ## FAQ
 
-#### What makes spotty different from spotifyd?
+#### What makes crabby different from spotifyd?
 
-Spotifyd is a daemon which purpose is to be a device for streaming Spotify musics and podcasts, but it doesn't support playback control. Spotty is aimed to be both a Spotify daemon and a Spotify playback player.
+Spotifyd is a daemon which purpose is to be a device for streaming Spotify musics and podcasts, but it doesn't support playback control. crabby is aimed to be both a Spotify daemon and a Spotify playback player.
 
 
 ## License
